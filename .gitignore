@@ -15,29 +15,12 @@ bin/
 *.iws
 *.ipr
 
-# VS Code
-.vscode/
-
 # Maven
 target/
 log/
 
-# Gradle
-.gradle/
-build/
-
-# Mac
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Application properties (optional)
-# application.properties
-
 # Database files
 *.db
-*.sqlite
 
 # Logs
 *.log
@@ -47,7 +30,11 @@ logs/
 tmp/
 temp/
 
-# DO NOT IGNORE THESE - Your source code!
+# Application properties (keep this file but don't include sensitive data)
+# application.properties
+
+# KEEP THESE - Your source code!
 !src/main/java/
 !src/main/resources/
 !pom.xml
+!README.md
