@@ -59,20 +59,26 @@ book-management/
 ├── pom.xml                                 # Maven dependencies
 └── README.md
 ```
+---
+
 ## 📄Usage
 - Launch the application
 - Navigate to the Books section
 - Perform operations like Add, Update, Delete, or View books
 - All changes are saved automatically to the database
 
+---
+
 ## 🎬Demo / Screenshots
 - Visual representation of the app:
+---
 
 ## 🚀Future Enhancements
 - User authentication and authorization
 - Book search and filter functionality
 - Borrow and return system for libraries
 - Integration with notification system (email alerts)
+---
 
 ## 🤝Contributing
 - Contributions are welcome! Follow these steps:
@@ -81,6 +87,7 @@ book-management/
   3. Commit your changes: git commit -m "Add some feature"
   4. Push to the branch: git push origin feature/your-feature
   5. Open a Pull Request
+---
 
 ## 📄License
 This project is licensed under the MIT License.
