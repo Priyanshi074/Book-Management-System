@@ -1,18 +1,53 @@
-# Maven build
-target/
-!.mvn/wrapper/maven-wrapper.jar
+# Compiled class files
+*.class
+*.war
+*.ear
 
-# IDE files
-*.iml
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# IntelliJ
 .idea/
-*.classpath
-*.project
-*.settings/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Maven
+target/
+log/
+
+# Gradle
+.gradle/
+build/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Application properties (optional)
+# application.properties
+
+# Database files
+*.db
+*.sqlite
 
 # Logs
 *.log
+logs/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Temporary files
+tmp/
+temp/
 
+# DO NOT IGNORE THESE - Your source code!
+!src/main/java/
+!src/main/resources/
+!pom.xml
