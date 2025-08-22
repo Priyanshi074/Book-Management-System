@@ -1,6 +1,6 @@
 # 📚 Book Management System
-
 A robust Spring Boot web application for managing library books with CRUD operations and role-based authentication. Ideal for educational institutes and small libraries to manage book collections efficiently.
+
 ---
 
 ## 🌟Features
@@ -14,8 +14,8 @@ A robust Spring Boot web application for managing library books with CRUD operat
 
 ## 🛠Technologies Used
 - **Backend:** Java, Spring Boot
-- **Frontend:** HTML, CSS, JavaScript
-- **Database:** MySQL / SQLite
+- **Frontend:** HTML5, CSS, Bootstrap 5, Thymeleaf
+- **Database:** MySQL
 - **Build Tool:** Maven
 - **Version Control:** Git & GitHub
 
