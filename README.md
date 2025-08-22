@@ -1,76 +1,76 @@
 # 📚 Book Management System
 
 A complete Spring Boot web application for managing library books with role-based authentication.
+# Book Management System
 
-https://img.shields.io/badge/Java-17%252B-orange
-https://img.shields.io/badge/Spring%2520Boot-3.1%252B-brightgreen
-https://img.shields.io/badge/MySQL-8.0%252B-blue
-https://img.shields.io/badge/License-MIT-green
-https://img.shields.io/badge/Build-Maven-yellow
+## Overview
+The **Book Management System** is a web-based application for managing books in a library or personal collection. It allows users to add, update, delete, and view books efficiently, providing a simple and organized way to track book inventory.
 
-📖 Overview
-The Book Management System is a web-based application for managing books in a library or personal collection. It allows users to add, update, delete, and view books efficiently, providing a simple and organized way to track book inventory with role-based access control.
+---
 
-✨ Features
-User Authentication & Authorization - Role-based access (Admin/User)
+## Features
+- Add new books with details like title, author, genre, and publication date
+- Update existing book information
+- Delete books from the collection
+- View all books in a structured format
+- Persistent storage using a database
 
-CRUD Operations - Add, view, update, and delete books
+---
 
-Book Search - Filter books by title, author, or genre
+## Technologies Used
+- **Backend:** Java, Spring Boot
+- **Frontend:** HTML, CSS, JavaScript
+- **Database:** MySQL / SQLite
+- **Build Tool:** Maven
+- **Version Control:** Git & GitHub
 
-Responsive UI - Works on desktop and mobile devices
+---
 
-Database Persistence - MySQL database integration
+## Installation & Setup
 
-RESTful API - Clean API design for book management
-
-🛠️ Technologies Used
-Backend: Java 17+, Spring Boot 3.1+, Spring Security, Spring Data JPA
-
-Frontend: HTML5, CSS3, JavaScript, Thymeleaf, Bootstrap 5
-
-Database: MySQL 8.0+
-
-Build Tool: Maven
-
-Version Control: Git & GitHub
-
-🚀 Quick Start
-Prerequisites
-Java 17 or higher
-
-MySQL 8.0 or higher
-
-Maven 3.6 or higher
-
-Installation & Setup
-Clone the repository
-
-bash
+1. **Clone the repository**
+```bash
 git clone https://github.com/your-username/book-management.git
 cd book-management
-Configure Database
+```
+2. **Setup Database**
+- Create a database named book_management (or as configured in application.properties)
+- Update database credentials in src/main/resources/application.properties
 
-Create a MySQL database named book_management
-
-Update database credentials in application.properties:
-
-properties
-# src/main/resources/application.properties
-spring.datasource.url=jdbc:mysql://localhost:3306/book_management
-spring.datasource.username=your_db_username
-spring.datasource.password=your_db_password
-spring.jpa.hibernate.ddl-auto=update
-spring.sql.init.mode=always
-Build and Run the Application
-
-bash
+3. **Build and Run the Project**
+```bash
 mvn clean install
 mvn spring-boot:run
-Access the Application
+```
 
-Open your browser and navigate to: http://localhost:8080
+4. **Access the Application**
+- Open your browser and go to http://localhost:8080
 
-Register a new account or use default admin credentials
+## Project Structure
+```bash
+book-management/
+├── src/
+│   ├── main/java/com/book/bookmanagement/   # Java source code
+│   ├── main/resources/                     # Configuration files
+│   └── main/resources/static/              # Frontend assets (HTML, CSS, JS)
+├── pom.xml                                 # Maven dependencies
+└── README.md
+```
+## Usage
+- Launch the application
+- Navigate to the Books section
+- Perform operations like Add, Update, Delete, or View books
+- All changes are saved automatically to the database
 
+## Future Enhancements
+- User authentication and authorization
+- Book search and filter functionality
+- Borrow and return system for libraries
+- Integration with notification system (email alerts)
+
+## Contributing
+Contributions are welcome! Please fork the repository and create a pull request.
+
+## License
+This project is licensed under the MIT License.
 
