@@ -58,10 +58,59 @@ mvn spring-boot:run
 ```bash
 book-management/
 ├── src/
-│   ├── main/java/com/book/bookmanagement/   # Java source code
-│   ├── main/resources/                     # Configuration files
-│   └── main/resources/static/              # Frontend assets (HTML, CSS, JS)
-├── pom.xml                                 # Maven dependencies
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── book/
+│       │           └── bookmanagement/
+│       │               ├── BookManagementApplication.java
+│       │               ├── config/
+│       │               │   ├── CustomUserDetailsService.java
+│       │               │   ├── DataInitializer.java
+│       │               │   └── SecurityConfig.java
+│       │               ├── controller/
+│       │               │   ├── AdminController.java
+│       │               │   ├── LoginController.java
+│       │               │   ├── ProfileController.java
+│       │               │   ├── RegistrationController.java
+│       │               │   └── StudentController.java
+│       │               ├── model/
+│       │               │   ├── Book.java
+│       │               │   ├── BookRequest.java
+│       │               │   ├── BookStatus.java
+│       │               │   ├── RequestStatus.java
+│       │               │   ├── User.java
+│       │               │   └── UserRole.java
+│       │               ├── repository/
+│       │               │   ├── BookRepository.java
+│       │               │   ├── BookRequestRepository.java
+│       │               │   └── UserRepository.java
+│       │               └── service/
+│       │                   ├── BookRequestService.java
+│       │                   ├── BookService.java
+│       │                   └── UserService.java
+│       └── resources/
+│           ├── application.properties
+│           └── templates/
+│               ├── add-book.html
+│               ├── admin-books.html
+│               ├── admin-dashboard.html
+│               ├── book-requests.html
+│               ├── edit-book.html
+│               ├── error-page.html
+│               ├── login.html
+│               ├── profile.html
+│               ├── register.html
+│               ├── student-books.html
+│               ├── student-dashboard.html
+│               └── student-requests.html
+├── target/
+│   └── (compiled classes and generated files)
+├── .gitignore
+├── HELP.md
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
 └── README.md
 ```
 ---
