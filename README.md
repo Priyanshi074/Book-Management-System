@@ -3,6 +3,7 @@
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-brightgreen.svg)
 ![Maven](https://img.shields.io/badge/Build-Maven-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 A robust Spring Boot web application for managing library books with CRUD operations and role-based authentication. Ideal for educational institutes and small libraries to manage book collections efficiently.
 
 ---
