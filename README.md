@@ -71,6 +71,64 @@ book-management/
 
 ## 🎬Demo / Screenshots
 - Visual representation of the app:
+## 🎬 Demo / Screenshots
+
+A quick look at the **Book Management System** in action.
+
+---
+
+### 🔐 Authentication
+
+#### Login Page
+Role-based login for **Admin** and **Student**.  
+![Login Page](screenshots/login%20page.jpg)
+
+#### Register Page
+New users can register into the system.  
+![Register Page](screenshots/Register%20page.jpg)
+
+---
+
+### 👩‍💻 Admin Mode
+
+#### 📊 Admin Dashboard
+Overview for admin after login.  
+![Admin Dashboard](screenshots/admin%20dashboard.jpg)
+
+#### 📖 Book List (Admin View)
+View all books with **Edit** and **Delete** options.  
+![Admin Book List](screenshots/admin%20book%20list.jpg)
+
+#### ➕ Add New Book
+Form to add a new book.  
+![Add Book](screenshots/add%20new%20book.jpg)
+
+#### ✏️ Edit Book
+Update details of an existing book.  
+![Edit Book](screenshots/edit%20book.jpg)
+
+---
+
+### 👩‍🎓 Student Mode
+
+#### 📊 Student Dashboard
+Student view after login.  
+![Student Dashboard](screenshots/student%20dashboard.jpg)
+
+#### 📚 Available Books
+List of books students can browse/borrow.  
+![Available Books](screenshots/available%20book%20list.jpg)
+
+#### 📖 Request Book
+Students can request a book from the library.  
+![Request Book](screenshots/student%20request%20book.jpg)
+
+---
+
+### 🎥 Full Demo (GIF) *(Optional)*
+Short walkthrough showing Admin (CRUD) + Student (Browse/Request).  
+![Demo](screenshots/demo.gif)
+
 ---
 
 ## 🚀Future Enhancements
