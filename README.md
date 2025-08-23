@@ -69,8 +69,6 @@ book-management/
 
 ---
 
-## 🎬Demo / Screenshots
-- Visual representation of the app:
 ## 🎬 Demo / Screenshots
 
 A quick look at the **Book Management System** in action.
@@ -122,12 +120,6 @@ List of books students can browse/borrow.
 #### 📖 Request Book
 Students can request a book from the library.  
 ![Request Book](screenshots/student%20request%20book.jpg)
-
----
-
-### 🎥 Full Demo (GIF) *(Optional)*
-Short walkthrough showing Admin (CRUD) + Student (Browse/Request).  
-![Demo](screenshots/demo.gif)
 
 ---
 
